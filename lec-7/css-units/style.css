@@ -1,0 +1,14 @@
+/* section{
+    width: 500px;
+    background-color: blueviolet;
+}
+div{
+    width: 50%;
+    background-color: bisque;
+    border: 3px dotted  aquamarine;
+} */
+
+ul>li{
+    /* font-size: 2em; */
+    font-size: 2rem; /*root em 16px *2 karega*/
+}

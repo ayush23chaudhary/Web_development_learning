@@ -1,0 +1,45 @@
+/* element selector
+h1{
+    color:brown;
+}
+/* is selector */
+/* #ayush{
+    font-size: 50px;
+} */
+/* class selector */
+/* .babs{
+    background-color: aquamarine;
+} */ 
+/* universal selector */
+/* *{
+    border: 2px solid;
+    border: 2px solid rebeccapurple;
+} */
+/* attribute selector */
+input[type="password"]{
+    background-color: bisque;
+}
+input[type="text"]{
+    background-color:chocolate;
+}
+a[href="http://google.com"]{
+    font-size: 50px;
+    color: blue;
+}
+a[href="http://facebook.com"]{
+    font-size: 100px;
+    color:darkgrey;
+}
+a:hover{
+    transform: scale(1.5);
+    background-color: brown;
+    color: black;
+}
+input:focus{
+    background-color: cadetblue;
+    font-size: large;
+}
+
+a:visited{
+    color:yellow;
+}

@@ -1,0 +1,47 @@
+#parent{
+    display: grid;
+    grid-template-rows: 1fr 4fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 90vh;
+    grid-template-areas: "header header header"
+                         "one main third"
+                         "second main third"
+                         "footer footer footer";
+    
+}
+div{
+    background-color: brown;
+    border: 1px solid black;
+}
+#header{
+    background-color: blanchedalmond;
+    grid-column-start:1 ;
+    grid-column-end: 5;
+}
+#one{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#second{
+    background-color: cadetblue;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#main{
+    background-color: lightgrey;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+}
+#third{
+    background-color: lightgreen;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#footer{
+    background-color: blanchedalmond;
+    grid-column-start:1 ;
+    grid-column-end: 5;
+}

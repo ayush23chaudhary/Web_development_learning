@@ -1,0 +1,5 @@
+# is used send dat on the same page
+forms has two methods- GET and POST
+by default GET methods
+** name attriutes can give same value to diiferent items but one at a time
+label is use for binding the input and it name

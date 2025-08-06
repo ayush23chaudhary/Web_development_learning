@@ -1,0 +1,11 @@
+typesof selectors:
+   1. basic:
+         element, ID, Class, universal, attribute
+    2. Advanced:
+        Combinators:
+           child, general siblings, adjacent sibling, descendant
+        Pseudo Class:
+            hover, active, visited, focus, nth of typesof
+        Pseudo element:
+            before, after, first time, first letter
+] 
